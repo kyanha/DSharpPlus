@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder" version="2015.1.12.0" projectFile="C:\Users\Ryan\Documents\testsharpcord\doccies\proj.shfbproj" started="9/4/2016 10:17:41 PM">
+<shfbBuild product="Sandcastle Help File Builder" version="2015.1.12.0" projectFile="C:\Users\Ryan\Documents\testsharpcord\doccies\proj.shfbproj" started="9/4/2016 10:38:01 PM">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
 Locating components in the following folder(s):
    C:\Users\Ryan\Documents\testsharpcord\doccies
-Using presentation style &#39;VS2013&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013&#39;
-Loading and initializing plug-ins...
-Lightweight Website Style Version 2015.1.12.0
-Copyright &#169; 2006-2015, Eric Woodruff, All Rights Reserved
-Portions Copyright &#169; 2014, Sam Harwell, All Rights Reserved
+Using presentation style &#39;VS2010&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010&#39;
 </buildStep>
 <buildStep step="ValidatingDocumentationSources">
 Validating and copying documentation source information
@@ -22,17 +18,16 @@ Copying XML comments files
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
-<plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.0530
+    Last step completed in 00:00:00.0130
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0080
+    Last step completed in 00:00:00.0030
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
-Build started 9/4/2016 10:17:42 PM.
+Build started 9/4/2016 10:38:02 PM.
 The target &quot;_ConvertPdbFiles&quot; listed in a BeforeTargets attribute at &quot;C:\Program Files (x86)\MSBuild\4.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)&quot; does not exist in the project, and will be ignored.
 The target &quot;_CollectPdbFiles&quot; listed in an AfterTargets attribute at &quot;C:\Program Files (x86)\MSBuild\4.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)&quot; does not exist in the project, and will be ignored.
 The target &quot;_CollectMdbFiles&quot; listed in a BeforeTargets attribute at &quot;C:\Program Files (x86)\MSBuild\4.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (40,38)&quot; does not exist in the project, and will be ignored.
@@ -55,13 +50,13 @@ Done Building Project &quot;C:\Users\Ryan\Documents\testsharpcord\doccies\Help\W
 
 Build succeeded.
 
-Time Elapsed 00:00:01.58
-    Last step completed in 00:00:01.9901
+Time Elapsed 00:00:01.62
+    Last step completed in 00:00:01.9921
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
-Build started 9/4/2016 10:17:44 PM.
+Build started 9/4/2016 10:38:04 PM.
 Project &quot;C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
 TransformManifest:
   XslTransform (v2015.1.12.0)
@@ -81,26 +76,26 @@ Done Building Project &quot;C:\Users\Ryan\Documents\testsharpcord\doccies\Help\W
 
 Build succeeded.
 
-Time Elapsed 00:00:01.23
-    Last step completed in 00:00:01.6241
+Time Elapsed 00:00:01.32
+    Last step completed in 00:00:01.7291
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0560
+    Last step completed in 00:00:00.0410
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0090
+    Last step completed in 00:00:00.0050
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0020
+    Last step completed in 00:00:00.0030
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
-Build started 9/4/2016 10:17:46 PM.
+Build started 9/4/2016 10:38:06 PM.
 Project &quot;C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 GenerateIntermediateTOC:
   XslTransform (v2015.1.12.0)
@@ -111,14 +106,14 @@ Done Building Project &quot;C:\Users\Ryan\Documents\testsharpcord\doccies\Help\W
 
 Build succeeded.
 
-Time Elapsed 00:00:00.63
+Time Elapsed 00:00:00.64
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.9861
+    Last step completed in 00:00:00.9971
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.2170
+    Last step completed in 00:00:00.1850
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
@@ -128,7 +123,7 @@ C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\sandcastle.config
 <buildStep step="BuildReferenceTopics">
 Building reference help topics...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
-Build started 9/4/2016 10:17:47 PM.
+Build started 9/4/2016 10:38:07 PM.
 Project &quot;C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj&quot; on node 1 (default targets).
 BuildReferenceTopics:
   BuildAssembler (v2015.1.12.0)
@@ -136,541 +131,43 @@ BuildReferenceTopics:
   Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
   Loading configuration...
   Processing topics...
-BuildAssembler : warning : ShowMissingComponent: [N:SharpCord] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Color.#ctor(System.String)] Missing &lt;param name=&quot;hex&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Color.B] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Color.G] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Color.R] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Color.ToDecimal] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Color.ToString] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.DiscordAudioPacket] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordAudioPacket.#ctor(System.Byte[])] Missing &lt;param name=&quot;raw&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordAudioPacket.#ctor(System.Char,System.Int32,System.Int32,System.Byte[])] Missing &lt;param name=&quot;seq&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordAudioPacket.#ctor(System.Char,System.Int32,System.Int32,System.Byte[])] Missing &lt;param name=&quot;timestamp&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordAudioPacket.#ctor(System.Char,System.Int32,System.Int32,System.Byte[])] Missing &lt;param name=&quot;ssrc&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordAudioPacket.#ctor(System.Char,System.Int32,System.Int32,System.Byte[])] Missing &lt;param name=&quot;encodedaudio&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordAudioPacket.AsRawPacket] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordAudioPacket.AsRawPacket] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordAudioPacket.EchoPacket(System.Byte[],System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordAudioPacket.EchoPacket(System.Byte[],System.Int32)] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordAudioPacket.EchoPacket(System.Byte[],System.Int32)] Missing &lt;param name=&quot;packet&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordAudioPacket.EchoPacket(System.Byte[],System.Int32)] Missing &lt;param name=&quot;ssrc&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordAudioPacket.GetEncodedAudio] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordAudioPacket.GetEncodedAudio] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:SharpCord.DiscordAudioPacket.RTP_HEADER_BYTE_LENGTH] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:SharpCord.DiscordAudioPacket.RTP_PAYLOAD_INDEX] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:SharpCord.DiscordAudioPacket.RTP_PAYLOAD_TYPE] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:SharpCord.DiscordAudioPacket.RTP_VERSION_PAD_EXTEND] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:SharpCord.DiscordAudioPacket.RTP_VERSION_PAD_EXTEND_INDEX] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordAudioPacket.Seq] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:SharpCord.DiscordAudioPacket.SEQ_INDEX] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordAudioPacket.SSRC] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:SharpCord.DiscordAudioPacket.SSRC_INDEX] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordAudioPacket.Timestamp] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:SharpCord.DiscordAudioPacket.TIMESTAMP_INDEX] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.DiscordAudioPacketEventArgs] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordAudioPacketEventArgs.Channel] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordAudioPacketEventArgs.FromUser] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordAudioPacketEventArgs.OpusAudio] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordAudioPacketEventArgs.OpusAudioLength] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.DiscordBanRemovedEventArgs] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordBanRemovedEventArgs.Guild] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordBanRemovedEventArgs.MemberStub] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.DiscordChannelCreateEventArgs] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordChannelCreateEventArgs.ChannelCreated] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordChannelCreateEventArgs.ChannelType] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.DiscordChannelCreateType] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordClient.#ctor(System.String,System.Boolean,System.Boolean)] Missing &lt;param name=&quot;enableLogging&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordClient.BanMember(SharpCord.Objects.DiscordMember,SharpCord.Objects.DiscordServer,System.Int32)] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordClient.BanMember(SharpCord.Objects.DiscordMember,SharpCord.Objects.DiscordServer,System.Int32)] Missing &lt;param name=&quot;member&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordClient.BanMember(SharpCord.Objects.DiscordMember,SharpCord.Objects.DiscordServer,System.Int32)] Missing &lt;param name=&quot;serverOverride&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordClient.BanMember(SharpCord.Objects.DiscordMember,SharpCord.Objects.DiscordServer,System.Int32)] Missing &lt;param name=&quot;days&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordClient.BanMember(SharpCord.Objects.DiscordMember,System.Int32)] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordClient.BanMember(SharpCord.Objects.DiscordMember,System.Int32)] Missing &lt;param name=&quot;member&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordClient.ChangeClientInformation(SharpCord.Objects.DiscordUserInformation)] Missing &lt;param name=&quot;info&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordClient.ClearOfflineUsersFromServer(SharpCord.Objects.DiscordServer)] Missing &lt;param name=&quot;server&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordClient.ConnectedToVoice] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordClient.CreateInvite(SharpCord.Objects.DiscordChannel)] Missing &lt;param name=&quot;channel&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordClient.DeleteMessage(SharpCord.Objects.DiscordMessage)] Missing &lt;param name=&quot;message&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordClient.DeleteMessage(System.String)] Missing &lt;param name=&quot;id&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordClient.EchoPacket(SharpCord.DiscordAudioPacket)] Missing &lt;param name=&quot;packet&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordClient.GetBans(SharpCord.Objects.DiscordServer)] Missing &lt;param name=&quot;server&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordClient.GetChannelByID(System.Int64)] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordClient.GetChannelByID(System.Int64)] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordClient.GetChannelByID(System.Int64)] Missing &lt;param name=&quot;id&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordClient.GetChannelByName(System.String)] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordClient.GetChannelByName(System.String)] Missing &lt;param name=&quot;channelName&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordClient.GetInviteData(System.String)] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordClient.GetLastMessageSent(SharpCord.Objects.DiscordChannel)] Missing &lt;param name=&quot;inChannel&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordClient.GetMemberFromChannel(SharpCord.Objects.DiscordChannelBase,System.String)] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordClient.GetMemberFromChannel(SharpCord.Objects.DiscordChannelBase,System.String)] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordClient.GetMemberFromChannel(SharpCord.Objects.DiscordChannelBase,System.String)] Missing &lt;param name=&quot;channel&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordClient.GetMemberFromChannel(SharpCord.Objects.DiscordChannelBase,System.String)] Missing &lt;param name=&quot;id&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordClient.GetMemberFromChannel(SharpCord.Objects.DiscordChannelBase,System.String,System.Boolean)] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordClient.GetMemberFromChannel(SharpCord.Objects.DiscordChannelBase,System.String,System.Boolean)] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordClient.GetMemberFromChannel(SharpCord.Objects.DiscordChannelBase,System.String,System.Boolean)] Missing &lt;param name=&quot;channel&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordClient.GetMemberFromChannel(SharpCord.Objects.DiscordChannelBase,System.String,System.Boolean)] Missing &lt;param name=&quot;username&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordClient.GetMemberFromChannel(SharpCord.Objects.DiscordChannelBase,System.String,System.Boolean)] Missing &lt;param name=&quot;caseSensitive&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordClient.GetServerChannelIsIn(SharpCord.Objects.DiscordChannel)] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordClient.GetVoiceClient] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordClient.KickMember(SharpCord.Objects.DiscordMember)] Missing &lt;param name=&quot;member&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordClient.MakeInviteURLFromCode(System.String)] Missing &lt;param name=&quot;id&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordClient.ReadyComplete] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordClient.SendMessageToChannel(System.String,SharpCord.Objects.DiscordChannel,System.Boolean)] Missing &lt;param name=&quot;isTTS&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordClient.SendMessageToUser(System.String,SharpCord.Objects.DiscordMember)] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [E:SharpCord.DiscordClient.URLMessageAutoUpdate] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.DiscordConnectEventArgs] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordConnectEventArgs.User] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.DiscordDebugMessagesEventArgs] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordDebugMessagesEventArgs.Message] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.DiscordEmbeds] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordEmbeds.Description] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordEmbeds.ProviderName] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordEmbeds.ProviderURL] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordEmbeds.Title] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordEmbeds.Type] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordEmbeds.URL] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.DiscordGuildBanEventArgs] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordGuildBanEventArgs.MemberBanned] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordGuildBanEventArgs.Server] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.DiscordGuildMemberUpdateEventArgs] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordGuildMemberUpdateEventArgs.MemberUpdate] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordGuildMemberUpdateEventArgs.RawJson] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [P:SharpCord.DiscordGuildMemberUpdateEventArgs.RawJson] Unknown reference link target &#39;T:Newtonsoft.Json.Linq.JObject&#39;. [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordGuildMemberUpdateEventArgs.ServerUpdated] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.DiscordGuildRoleDeleteEventArgs] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordGuildRoleDeleteEventArgs.DeletedRole] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordGuildRoleDeleteEventArgs.Guild] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordGuildRoleDeleteEventArgs.RawJson] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [P:SharpCord.DiscordGuildRoleDeleteEventArgs.RawJson] Unknown reference link target &#39;T:Newtonsoft.Json.Linq.JObject&#39;. [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.DiscordGuildRoleUpdateEventArgs] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordGuildRoleUpdateEventArgs.InServer] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordGuildRoleUpdateEventArgs.RawJson] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [P:SharpCord.DiscordGuildRoleUpdateEventArgs.RawJson] Unknown reference link target &#39;T:Newtonsoft.Json.Linq.JObject&#39;. [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordGuildRoleUpdateEventArgs.RoleUpdated] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.DiscordKeepAliveSentEventArgs] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordKeepAliveSentEventArgs.JsonSent] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordKeepAliveSentEventArgs.SentAt] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.DiscordLeftVoiceChannelEventArgs] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordLeftVoiceChannelEventArgs.Guild] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordLeftVoiceChannelEventArgs.RawJson] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [P:SharpCord.DiscordLeftVoiceChannelEventArgs.RawJson] Unknown reference link target &#39;T:Newtonsoft.Json.Linq.JObject&#39;. [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordLeftVoiceChannelEventArgs.User] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.DiscordMentionEventArgs] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordMentionEventArgs.Author] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordMentionEventArgs.Channel] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordMentionEventArgs.Message] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordMentionEventArgs.MessageType] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordMentionEventArgs.RawJson] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [P:SharpCord.DiscordMentionEventArgs.RawJson] Unknown reference link target &#39;T:Newtonsoft.Json.Linq.JObject&#39;. [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.DiscordPresenceUpdateEventArgs] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordPresenceUpdateEventArgs.Game] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordPresenceUpdateEventArgs.RawJson] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [P:SharpCord.DiscordPresenceUpdateEventArgs.RawJson] Unknown reference link target &#39;T:Newtonsoft.Json.Linq.JObject&#39;. [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordPresenceUpdateEventArgs.Status] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordPresenceUpdateEventArgs.User] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.DiscordPrivateChannelEventArgs] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordPrivateChannelEventArgs.ChannelCreated] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordPrivateChannelEventArgs.ChannelType] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.DiscordPrivateMessageEventArgs] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordPrivateMessageEventArgs.Author] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordPrivateMessageEventArgs.Channel] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordPrivateMessageEventArgs.Message] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordPrivateMessageEventArgs.RawJson] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [P:SharpCord.DiscordPrivateMessageEventArgs.RawJson] Unknown reference link target &#39;T:Newtonsoft.Json.Linq.JObject&#39;. [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordProperties.referrer] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordProperties.referring_domain] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.DiscordSocketClosedEventArgs] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordSocketClosedEventArgs.Code] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordSocketClosedEventArgs.Reason] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordSocketClosedEventArgs.WasClean] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.DiscordTypingStartEventArgs] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordTypingStartEventArgs.Channel] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordTypingStartEventArgs.RawJson] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [P:SharpCord.DiscordTypingStartEventArgs.RawJson] Unknown reference link target &#39;T:Newtonsoft.Json.Linq.JObject&#39;. [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordTypingStartEventArgs.Timestamp] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordTypingStartEventArgs.user] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.DiscordURLUpdateEventArgs] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordURLUpdateEventArgs.Channel] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordURLUpdateEventArgs.Embeds] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordURLUpdateEventArgs.ID] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordURLUpdateEventArgs.URL] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.DiscordUserStatus] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.DiscordVoiceClient] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordVoiceClient.#ctor(SharpCord.DiscordClient)] Missing &lt;param name=&quot;parentClient&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordVoiceClient.#ctor(SharpCord.DiscordClient,SharpCord.DiscordVoiceConfig)] Missing &lt;param name=&quot;parentClient&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordVoiceClient.#ctor(SharpCord.DiscordClient,SharpCord.DiscordVoiceConfig)] Missing &lt;param name=&quot;config&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordVoiceClient.#ctor(SharpCord.DiscordClient,SharpCord.DiscordVoiceConfig,SharpCord.Objects.DiscordChannel)] Missing &lt;param name=&quot;parentClient&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordVoiceClient.#ctor(SharpCord.DiscordClient,SharpCord.DiscordVoiceConfig,SharpCord.Objects.DiscordChannel)] Missing &lt;param name=&quot;config&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordVoiceClient.#ctor(SharpCord.DiscordClient,SharpCord.DiscordVoiceConfig,SharpCord.Objects.DiscordChannel)] Missing &lt;param name=&quot;channel&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordVoiceClient.Channel] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordVoiceClient.Connected] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordVoiceClient.Decoder] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordVoiceClient.EchoPacket(SharpCord.DiscordAudioPacket)] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordVoiceClient.EchoPacket(SharpCord.DiscordAudioPacket)] Missing &lt;param name=&quot;packet&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordVoiceClient.GetDebugLogger] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordVoiceClient.Guild] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordVoiceClient.Me] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordVoiceClient.SendPacket(SharpCord.DiscordAudioPacket)] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.DiscordVoiceClient.SendPacket(SharpCord.DiscordAudioPacket)] Missing &lt;param name=&quot;packet&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordVoiceClient.SessionID] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordVoiceClient.Token] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordVoiceClient.VoiceConfig] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordVoiceClient.VoiceEndpoint] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.DiscordVoiceConfig] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.DiscordVoiceStateUpdateEventArgs] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordVoiceStateUpdateEventArgs.Channel] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordVoiceStateUpdateEventArgs.Deaf] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordVoiceStateUpdateEventArgs.Guild] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordVoiceStateUpdateEventArgs.Mute] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordVoiceStateUpdateEventArgs.RawJson] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [P:SharpCord.DiscordVoiceStateUpdateEventArgs.RawJson] Unknown reference link target &#39;T:Newtonsoft.Json.Linq.JObject&#39;. [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordVoiceStateUpdateEventArgs.SelfDeaf] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordVoiceStateUpdateEventArgs.SelfMute] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordVoiceStateUpdateEventArgs.Suppress] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordVoiceStateUpdateEventArgs.Token] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.DiscordVoiceStateUpdateEventArgs.User] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:SharpCord.Endpoints.Auth] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:SharpCord.Endpoints.Avatars] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:SharpCord.Endpoints.Bans] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:SharpCord.Endpoints.BaseAPI] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:SharpCord.Endpoints.Channels] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:SharpCord.Endpoints.ContentDeliveryNode] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:SharpCord.Endpoints.Gateway] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:SharpCord.Endpoints.Guilds] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:SharpCord.Endpoints.Icons] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:SharpCord.Endpoints.Invite] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:SharpCord.Endpoints.Invites] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:SharpCord.Endpoints.Login] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:SharpCord.Endpoints.Me] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:SharpCord.Endpoints.Members] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:SharpCord.Endpoints.Messages] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:SharpCord.Endpoints.Pins] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:SharpCord.Endpoints.Roles] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:SharpCord.Endpoints.Typing] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:SharpCord.Endpoints.Users] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.Logger] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Logger.EnableLogging] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Logger.GetLog(System.DateTime)] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Logger.GetLog(System.DateTime)] Missing &lt;param name=&quot;time&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Logger.GetLogs(SharpCord.MessageLevel)] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Logger.GetLogs(SharpCord.MessageLevel)] Missing &lt;param name=&quot;level&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Logger.Log(System.String)] Missing &lt;param name=&quot;message&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Logger.Log(System.String,SharpCord.MessageLevel)] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Logger.Log(System.String,SharpCord.MessageLevel)] Missing &lt;param name=&quot;message&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Logger.Log(System.String,SharpCord.MessageLevel)] Missing &lt;param name=&quot;level&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Logger.LogAsync(System.String,SharpCord.MessageLevel)] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Logger.LogAsync(System.String,SharpCord.MessageLevel)] Missing &lt;param name=&quot;message&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Logger.LogAsync(System.String,SharpCord.MessageLevel)] Missing &lt;param name=&quot;level&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Logger.LogCount] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [E:SharpCord.Logger.LogMessageReceived] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Logger.Save(System.String)] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Logger.Save(System.String)] Missing &lt;param name=&quot;file&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Logger.Save(System.String,SharpCord.MessageLevel)] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Logger.Save(System.String,SharpCord.MessageLevel)] Missing &lt;param name=&quot;file&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Logger.Save(System.String,SharpCord.MessageLevel)] Missing &lt;param name=&quot;levels&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.LoggerMessageReceivedArgs] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:SharpCord.LoggerMessageReceivedArgs.message] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.LogMessage] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:SharpCord.LogMessage.Level] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:SharpCord.LogMessage.Message] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:SharpCord.LogMessage.TimeStamp] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.MessageLevel] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.OnLogMessageReceived] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.Opcodes] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [N:SharpCord.Events] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.Events.DiscordChannelDeleteEventArgs] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Events.DiscordChannelDeleteEventArgs.ChannelDeleted] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.Events.DiscordChannelUpdateEventArgs] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Events.DiscordChannelUpdateEventArgs.NewChannel] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Events.DiscordChannelUpdateEventArgs.OldChannel] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Events.DiscordChannelUpdateEventArgs.RawJson] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [P:SharpCord.Events.DiscordChannelUpdateEventArgs.RawJson] Unknown reference link target &#39;T:Newtonsoft.Json.Linq.JObject&#39;. [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.Events.DiscordGuildCreateEventArgs] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Events.DiscordGuildCreateEventArgs.RawJson] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [P:SharpCord.Events.DiscordGuildCreateEventArgs.RawJson] Unknown reference link target &#39;T:Newtonsoft.Json.Linq.JObject&#39;. [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Events.DiscordGuildCreateEventArgs.Server] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.Events.DiscordGuildDeleteEventArgs] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Events.DiscordGuildDeleteEventArgs.RawJson] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [P:SharpCord.Events.DiscordGuildDeleteEventArgs.RawJson] Unknown reference link target &#39;T:Newtonsoft.Json.Linq.JObject&#39;. [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Events.DiscordGuildDeleteEventArgs.Server] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.Events.DiscordGuildMemberAddEventArgs] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Events.DiscordGuildMemberAddEventArgs.AddedMember] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Events.DiscordGuildMemberAddEventArgs.Guild] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Events.DiscordGuildMemberAddEventArgs.JoinedAt] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Events.DiscordGuildMemberAddEventArgs.RawJson] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [P:SharpCord.Events.DiscordGuildMemberAddEventArgs.RawJson] Unknown reference link target &#39;T:Newtonsoft.Json.Linq.JObject&#39;. [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Events.DiscordGuildMemberAddEventArgs.Roles] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.Events.DiscordGuildMemberRemovedEventArgs] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Events.DiscordGuildMemberRemovedEventArgs.MemberRemoved] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Events.DiscordGuildMemberRemovedEventArgs.RawJson] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [P:SharpCord.Events.DiscordGuildMemberRemovedEventArgs.RawJson] Unknown reference link target &#39;T:Newtonsoft.Json.Linq.JObject&#39;. [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Events.DiscordGuildMemberRemovedEventArgs.Server] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.Events.DiscordMessageDeletedEventArgs] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Events.DiscordMessageDeletedEventArgs.Channel] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Events.DiscordMessageDeletedEventArgs.DeletedMessage] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Events.DiscordMessageDeletedEventArgs.RawJson] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [P:SharpCord.Events.DiscordMessageDeletedEventArgs.RawJson] Unknown reference link target &#39;T:Newtonsoft.Json.Linq.JObject&#39;. [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.Events.DiscordMessageEditedEventArgs] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Events.DiscordMessageEditedEventArgs.#ctor(Newtonsoft.Json.Linq.JObject)] Missing &lt;param name=&quot;message&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:SharpCord.Events.DiscordMessageEditedEventArgs.#ctor(Newtonsoft.Json.Linq.JObject)] Unknown reference link target &#39;T:Newtonsoft.Json.Linq.JObject&#39;. [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Events.DiscordMessageEditedEventArgs.Author] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Events.DiscordMessageEditedEventArgs.Channel] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Events.DiscordMessageEditedEventArgs.EditedTimestamp] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Events.DiscordMessageEditedEventArgs.MessageEdited] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Events.DiscordMessageEditedEventArgs.MessageText] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Events.DiscordMessageEditedEventArgs.MessageType] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Events.DiscordMessageEditedEventArgs.RawJson] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [P:SharpCord.Events.DiscordMessageEditedEventArgs.RawJson] Unknown reference link target &#39;T:Newtonsoft.Json.Linq.JObject&#39;. [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.Events.DiscordMessageEventArgs] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Events.DiscordMessageEventArgs.Author] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Events.DiscordMessageEventArgs.Channel] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Events.DiscordMessageEventArgs.Message] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Events.DiscordMessageEventArgs.MessageText] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Events.DiscordMessageEventArgs.MessageType] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Events.DiscordMessageEventArgs.RawJson] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [P:SharpCord.Events.DiscordMessageEventArgs.RawJson] Unknown reference link target &#39;T:Newtonsoft.Json.Linq.JObject&#39;. [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.Events.DiscordPrivateChannelDeleteEventArgs] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Events.DiscordPrivateChannelDeleteEventArgs.PrivateChannelDeleted] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.Events.DiscordPrivateMessageDeletedEventArgs] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Events.DiscordPrivateMessageDeletedEventArgs.Channel] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.Events.DiscordServerUpdateEventArgs] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Events.DiscordServerUpdateEventArgs.NewServer] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Events.DiscordServerUpdateEventArgs.OldServer] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.Events.DiscordUserUpdateEventArgs] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Events.DiscordUserUpdateEventArgs.NewMember] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Events.DiscordUserUpdateEventArgs.OriginalMember] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Events.DiscordUserUpdateEventArgs.RawJson] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [P:SharpCord.Events.DiscordUserUpdateEventArgs.RawJson] Unknown reference link target &#39;T:Newtonsoft.Json.Linq.JObject&#39;. [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.Events.DiscordVoiceUserSpeakingEventArgs] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Events.DiscordVoiceUserSpeakingEventArgs.Channel] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Events.DiscordVoiceUserSpeakingEventArgs.Ssrc] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Events.DiscordVoiceUserSpeakingEventArgs.UserSpeaking] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.Events.UnknownMessageEventArgs] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Events.UnknownMessageEventArgs.RawJson] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [P:SharpCord.Events.UnknownMessageEventArgs.RawJson] Unknown reference link target &#39;T:Newtonsoft.Json.Linq.JObject&#39;. [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [N:SharpCord.Objects] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.Objects.ChannelType] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.Objects.DiscordAttachment] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Objects.DiscordAttachment.Filename] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Objects.DiscordAttachment.Height] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Objects.DiscordAttachment.ProxyURL] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Objects.DiscordAttachment.Size] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Objects.DiscordAttachment.URL] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Objects.DiscordAttachment.Width] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.Objects.DiscordChannel] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordChannel.GetMessage(System.String)] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordChannel.GetMessages] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordChannel.GetPinnedMessages] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Objects.DiscordChannel.Icon] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Objects.DiscordChannel.Name] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Objects.DiscordChannel.Parent] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Objects.DiscordChannel.PermissionOverrides] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordChannel.SendMessage(System.String)] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordChannel.SendMessageTTS(System.String)] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Objects.DiscordChannel.ServerID] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordChannel.ShallowCopy] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordChannel.ShallowCopy] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Objects.DiscordChannel.Topic] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Objects.DiscordChannel.Type] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.Objects.DiscordChannelBase] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Objects.DiscordChannelBase.ID] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Objects.DiscordChannelBase.Private] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.Objects.DiscordInvite] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.Objects.DiscordInviteChannel] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.Objects.DiscordInviteServer] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.Objects.DiscordLoginException] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordLoginException.#ctor(System.String)] Missing &lt;param name=&quot;message&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordLoginException.#ctor(System.String,System.Exception)] Missing &lt;param name=&quot;message&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordLoginException.#ctor(System.String,System.Exception)] Missing &lt;param name=&quot;inner&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.Objects.DiscordLoginInformation] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordLoginInformation.AsJson] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordLoginInformation.AsJson] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Objects.DiscordLoginInformation.Email] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Objects.DiscordLoginInformation.Password] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.Objects.DiscordMember] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordMember.Equals(System.Object)] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordMember.Equals(System.Object)] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordMember.Equals(System.Object)] Missing &lt;param name=&quot;obj&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordMember.GetAvatarURL] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordMember.HasRole(System.String)] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordMember.HasRole(System.String)] Missing &lt;param name=&quot;role&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordMember.op_Equality(SharpCord.Objects.DiscordMember,SharpCord.Objects.DiscordMember)] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordMember.op_Equality(SharpCord.Objects.DiscordMember,SharpCord.Objects.DiscordMember)] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordMember.op_Equality(SharpCord.Objects.DiscordMember,SharpCord.Objects.DiscordMember)] Missing &lt;param name=&quot;x&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordMember.op_Equality(SharpCord.Objects.DiscordMember,SharpCord.Objects.DiscordMember)] Missing &lt;param name=&quot;y&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordMember.op_Inequality(SharpCord.Objects.DiscordMember,SharpCord.Objects.DiscordMember)] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordMember.op_Inequality(SharpCord.Objects.DiscordMember,SharpCord.Objects.DiscordMember)] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordMember.op_Inequality(SharpCord.Objects.DiscordMember,SharpCord.Objects.DiscordMember)] Missing &lt;param name=&quot;x&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordMember.op_Inequality(SharpCord.Objects.DiscordMember,SharpCord.Objects.DiscordMember)] Missing &lt;param name=&quot;y&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Objects.DiscordMessage.Attachments] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Objects.DiscordMessage.Author] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordMessage.Channel] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordMessage.Channel] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Objects.DiscordMessage.Content] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Objects.DiscordMessage.ID] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Objects.DiscordMessage.pinned] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Objects.DiscordMessage.RawJson] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [P:SharpCord.Objects.DiscordMessage.RawJson] Unknown reference link target &#39;T:Newtonsoft.Json.Linq.JObject&#39;. [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Objects.DiscordMessage.Recipient] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Objects.DiscordMessage.timestamp] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Objects.DiscordMessage.TTS] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Objects.DiscordMessage.TypeOfChannelObject] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.Objects.DiscordPermission] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordPermission.GetAllPermissions] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordPermission.GetAllPermissions] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordPermission.GetRawPermissions] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordPermission.GetRawPermissions] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordPermission.HasPermission(SharpCord.Objects.DiscordSpecialPermissions)] Missing &lt;param name=&quot;permission&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordPermission.RemovePermission(SharpCord.Objects.DiscordSpecialPermissions)] Missing &lt;param name=&quot;permission&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordPermission.SetPermission(SharpCord.Objects.DiscordSpecialPermissions)] Missing &lt;param name=&quot;permission&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.Objects.DiscordPermissionOverride] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordPermissionOverride.AllowedPermission(SharpCord.Objects.DiscordSpecialPermissions)] Missing &lt;param name=&quot;permission&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordPermissionOverride.DeniedPermission(SharpCord.Objects.DiscordSpecialPermissions)] Missing &lt;param name=&quot;permission&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordPermissionOverride.GetAllAllowedPermissions] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordPermissionOverride.GetAllAllowedPermissions] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordPermissionOverride.GetAllDeniedPermissions] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordPermissionOverride.GetAllDeniedPermissions] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordPermissionOverride.GetAllowedRawPermissions] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordPermissionOverride.GetAllowedRawPermissions] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordPermissionOverride.GetDeniedRawPermissions] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordPermissionOverride.GetDeniedRawPermissions] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordPermissionOverride.RemovePermissionAllowed(SharpCord.Objects.DiscordSpecialPermissions)] Missing &lt;param name=&quot;permission&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordPermissionOverride.RemovePermissionDenied(SharpCord.Objects.DiscordSpecialPermissions)] Missing &lt;param name=&quot;permission&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordPermissionOverride.SetPermissionAllowed(SharpCord.Objects.DiscordSpecialPermissions)] Missing &lt;param name=&quot;permission&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordPermissionOverride.SetPermissionDenied(SharpCord.Objects.DiscordSpecialPermissions)] Missing &lt;param name=&quot;permission&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Objects.DiscordPermissionOverride.type] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.Objects.DiscordPermissionOverride.OverrideType] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.Objects.DiscordPrivateChannel] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Objects.DiscordPrivateChannel.Recipient] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.Objects.DiscordRecipient] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Objects.DiscordRecipient.id] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Objects.DiscordRecipient.username] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.Objects.DiscordRole] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordRole.Copy] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordRole.Copy] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.Objects.DiscordServer] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordServer.CreateChannel(System.String,System.Boolean)] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordServer.CreateRole] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordServer.EditRole(SharpCord.Objects.DiscordRole)] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordServer.GetBans] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordServer.GetInvites] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordServer.GetMemberByKey(System.String)] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordServer.GetMemberByKey(System.String)] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordServer.GetMemberByKey(System.String)] Missing &lt;param name=&quot;key&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordServer.GetMemberByUsername(System.String,System.Boolean)] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Objects.DiscordServer.IconURL] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordServer.ShallowCopy] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordServer.ShallowCopy] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.Objects.DiscordSpecialPermissions] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.Objects.DiscordUserInformation] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Objects.DiscordUserInformation.Avatar] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordUserInformation.Copy] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.DiscordUserInformation.Copy] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Objects.DiscordUserInformation.Email] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Objects.DiscordUserInformation.Password] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Objects.DiscordUserInformation.Username] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.Objects.DiscordVoiceState] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.Objects.RateLimitException] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.RateLimitException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)] Missing &lt;param name=&quot;info&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.RateLimitException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)] Missing &lt;param name=&quot;context&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.RateLimitException.#ctor(System.String)] Missing &lt;param name=&quot;message&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.RateLimitException.#ctor(System.String,System.Exception)] Missing &lt;param name=&quot;message&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.RateLimitException.#ctor(System.String,System.Exception)] Missing &lt;param name=&quot;innerException&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.RateLimitException.#ctor(System.String,System.Int32)] Missing &lt;param name=&quot;message&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Objects.RateLimitException.#ctor(System.String,System.Int32)] Missing &lt;param name=&quot;retryAfter&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.Objects.Status] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [N:SharpCord.Sockets] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Sockets.IDiscordWebSocket.Close] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Sockets.IDiscordWebSocket.Connect] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Sockets.IDiscordWebSocket.Send(System.Byte[])] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Sockets.IDiscordWebSocket.Send(System.Byte[])] Missing &lt;param name=&quot;data&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Sockets.IDiscordWebSocket.Send(System.String)] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Sockets.IDiscordWebSocket.Send(System.String)] Missing &lt;param name=&quot;data&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.Sockets.SocketClosedEventArgs] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Sockets.SocketClosedEventArgs.Code] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Sockets.SocketClosedEventArgs.Reason] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Sockets.SocketClosedEventArgs.WasClean] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.Sockets.SocketErrorEventArgs] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Sockets.SocketErrorEventArgs.Exception] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Sockets.SocketErrorEventArgs.Message] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.Sockets.SocketMessageEventArgs] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:SharpCord.Sockets.SocketMessageEventArgs.Message] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [N:SharpCord.Sockets.BuiltIn] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.Sockets.BuiltIn.NetWebSocketWrapper] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Sockets.BuiltIn.NetWebSocketWrapper.#ctor(System.String)] Missing &lt;param name=&quot;uri&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Sockets.BuiltIn.NetWebSocketWrapper.Close] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Sockets.BuiltIn.NetWebSocketWrapper.Connect] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Sockets.BuiltIn.NetWebSocketWrapper.Create(System.String)] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Sockets.BuiltIn.NetWebSocketWrapper.OnConnect(System.Action{SharpCord.Sockets.BuiltIn.NetWebSocketWrapper})] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Sockets.BuiltIn.NetWebSocketWrapper.OnDisconnect(System.Action{System.Int32,System.String,SharpCord.Sockets.BuiltIn.NetWebSocketWrapper})] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Sockets.BuiltIn.NetWebSocketWrapper.OnMessage(System.Action{System.String,SharpCord.Sockets.BuiltIn.NetWebSocketWrapper})] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [N:SharpCord.Voice] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.Voice.OpusApplication] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.Voice.OpusConverter] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Voice.OpusConverter.#ctor(System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;samplingRate&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Voice.OpusConverter.#ctor(System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;channels&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Voice.OpusConverter.#ctor(System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;frameLength&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:SharpCord.Voice.OpusConverter._ptr] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Voice.OpusConverter.Finalize] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.Voice.OpusConverter.Ctl] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.Voice.OpusConverter.UnsafeNativeMethods] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Voice.OpusConverter.UnsafeNativeMethods.CreateDecoder(System.Int32,System.Int32,SharpCord.Voice.OpusError@)] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Voice.OpusConverter.UnsafeNativeMethods.CreateDecoder(System.Int32,System.Int32,SharpCord.Voice.OpusError@)] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Voice.OpusConverter.UnsafeNativeMethods.CreateDecoder(System.Int32,System.Int32,SharpCord.Voice.OpusError@)] Missing &lt;param name=&quot;Fs&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Voice.OpusConverter.UnsafeNativeMethods.CreateDecoder(System.Int32,System.Int32,SharpCord.Voice.OpusError@)] Missing &lt;param name=&quot;channels&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Voice.OpusConverter.UnsafeNativeMethods.CreateDecoder(System.Int32,System.Int32,SharpCord.Voice.OpusError@)] Missing &lt;param name=&quot;error&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Voice.OpusConverter.UnsafeNativeMethods.CreateEncoder(System.Int32,System.Int32,System.Int32,SharpCord.Voice.OpusError@)] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Voice.OpusConverter.UnsafeNativeMethods.CreateEncoder(System.Int32,System.Int32,System.Int32,SharpCord.Voice.OpusError@)] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Voice.OpusConverter.UnsafeNativeMethods.CreateEncoder(System.Int32,System.Int32,System.Int32,SharpCord.Voice.OpusError@)] Missing &lt;param name=&quot;Fs&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Voice.OpusConverter.UnsafeNativeMethods.CreateEncoder(System.Int32,System.Int32,System.Int32,SharpCord.Voice.OpusError@)] Missing &lt;param name=&quot;channels&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Voice.OpusConverter.UnsafeNativeMethods.CreateEncoder(System.Int32,System.Int32,System.Int32,SharpCord.Voice.OpusError@)] Missing &lt;param name=&quot;application&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Voice.OpusConverter.UnsafeNativeMethods.CreateEncoder(System.Int32,System.Int32,System.Int32,SharpCord.Voice.OpusError@)] Missing &lt;param name=&quot;error&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Voice.OpusConverter.UnsafeNativeMethods.Decode(System.IntPtr,System.Byte*,System.Int32,System.Byte[],System.Int32,System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Voice.OpusConverter.UnsafeNativeMethods.Decode(System.IntPtr,System.Byte*,System.Int32,System.Byte[],System.Int32,System.Int32)] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Voice.OpusConverter.UnsafeNativeMethods.Decode(System.IntPtr,System.Byte*,System.Int32,System.Byte[],System.Int32,System.Int32)] Missing &lt;param name=&quot;st&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Voice.OpusConverter.UnsafeNativeMethods.Decode(System.IntPtr,System.Byte*,System.Int32,System.Byte[],System.Int32,System.Int32)] Missing &lt;param name=&quot;data&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Voice.OpusConverter.UnsafeNativeMethods.Decode(System.IntPtr,System.Byte*,System.Int32,System.Byte[],System.Int32,System.Int32)] Missing &lt;param name=&quot;len&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Voice.OpusConverter.UnsafeNativeMethods.Decode(System.IntPtr,System.Byte*,System.Int32,System.Byte[],System.Int32,System.Int32)] Missing &lt;param name=&quot;pcm&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Voice.OpusConverter.UnsafeNativeMethods.Decode(System.IntPtr,System.Byte*,System.Int32,System.Byte[],System.Int32,System.Int32)] Missing &lt;param name=&quot;frame_size&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Voice.OpusConverter.UnsafeNativeMethods.Decode(System.IntPtr,System.Byte*,System.Int32,System.Byte[],System.Int32,System.Int32)] Missing &lt;param name=&quot;decode_fec&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Voice.OpusConverter.UnsafeNativeMethods.DestroyDecoder(System.IntPtr)] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Voice.OpusConverter.UnsafeNativeMethods.DestroyDecoder(System.IntPtr)] Missing &lt;param name=&quot;decoder&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Voice.OpusConverter.UnsafeNativeMethods.DestroyEncoder(System.IntPtr)] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Voice.OpusConverter.UnsafeNativeMethods.DestroyEncoder(System.IntPtr)] Missing &lt;param name=&quot;encoder&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Voice.OpusConverter.UnsafeNativeMethods.Encode(System.IntPtr,System.Byte*,System.Int32,System.Byte[],System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Voice.OpusConverter.UnsafeNativeMethods.Encode(System.IntPtr,System.Byte*,System.Int32,System.Byte[],System.Int32)] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Voice.OpusConverter.UnsafeNativeMethods.Encode(System.IntPtr,System.Byte*,System.Int32,System.Byte[],System.Int32)] Missing &lt;param name=&quot;st&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Voice.OpusConverter.UnsafeNativeMethods.Encode(System.IntPtr,System.Byte*,System.Int32,System.Byte[],System.Int32)] Missing &lt;param name=&quot;pcm&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Voice.OpusConverter.UnsafeNativeMethods.Encode(System.IntPtr,System.Byte*,System.Int32,System.Byte[],System.Int32)] Missing &lt;param name=&quot;frame_size&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Voice.OpusConverter.UnsafeNativeMethods.Encode(System.IntPtr,System.Byte*,System.Int32,System.Byte[],System.Int32)] Missing &lt;param name=&quot;data&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Voice.OpusConverter.UnsafeNativeMethods.Encode(System.IntPtr,System.Byte*,System.Int32,System.Byte[],System.Int32)] Missing &lt;param name=&quot;max_data_bytes&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Voice.OpusConverter.UnsafeNativeMethods.EncoderCtl(System.IntPtr,SharpCord.Voice.OpusConverter.Ctl,System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Voice.OpusConverter.UnsafeNativeMethods.EncoderCtl(System.IntPtr,SharpCord.Voice.OpusConverter.Ctl,System.Int32)] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Voice.OpusConverter.UnsafeNativeMethods.EncoderCtl(System.IntPtr,SharpCord.Voice.OpusConverter.Ctl,System.Int32)] Missing &lt;param name=&quot;st&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Voice.OpusConverter.UnsafeNativeMethods.EncoderCtl(System.IntPtr,SharpCord.Voice.OpusConverter.Ctl,System.Int32)] Missing &lt;param name=&quot;request&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Voice.OpusConverter.UnsafeNativeMethods.EncoderCtl(System.IntPtr,SharpCord.Voice.OpusConverter.Ctl,System.Int32)] Missing &lt;param name=&quot;value&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.Voice.OpusDecoder] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Voice.OpusDecoder.#ctor(System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;channels&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Voice.OpusDecoder.DecodeFrame(System.Byte[],System.Int32,System.Int32,System.Byte[])] Missing &lt;returns&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:SharpCord.Voice.OpusDecoder.DecodeFrame(System.Byte[],System.Int32,System.Int32,System.Byte[])] Missing &lt;param name=&quot;inputCount&quot;/&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:SharpCord.Voice.OpusError] Missing &lt;summary&gt; documentation [C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj]
   Processed 854 topic(s)
-  519 warning(s)
+  21 warning(s)
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 7 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 2 of 30.
 Done Building Project &quot;C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\BuildReferenceTopics.proj&quot; (default targets).
 
 Build succeeded.
 
-Time Elapsed 00:00:14.13
-    Last step completed in 00:00:14.5680
+Time Elapsed 00:00:13.01
+    Last step completed in 00:00:13.4429
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
 
 Clearing any prior web output
-    Last step completed in 00:00:00.0100
+    Last step completed in 00:00:00.3480
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -686,98 +183,106 @@ Processed 854 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\WebKI.xml
 Saving website table of contents to C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\WebTOC.xml
-    Last step completed in 00:00:03.4722
+    Last step completed in 00:00:02.9432
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertCaution.png -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\AlertCaution.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertNote.png -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\AlertNote.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertSecurity.png -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\AlertSecurity.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CFW.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\CFW.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CodeExample.png -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\CodeExample.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\favicon.ico -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\favicon.ico
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privclass.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\privclass.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privdelegate.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\privdelegate.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privenumeration.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\privenumeration.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privevent.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\privevent.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privextension.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\privextension.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privfield.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\privfield.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privinterface.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\privinterface.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privmethod.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\privmethod.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privproperty.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\privproperty.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privstructure.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\privstructure.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protclass.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\protclass.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protdelegate.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\protdelegate.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protenumeration.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\protenumeration.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protevent.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\protevent.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protextension.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\protextension.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protfield.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\protfield.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protinterface.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\protinterface.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protmethod.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\protmethod.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protoperator.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\protoperator.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protproperty.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\protproperty.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protstructure.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\protstructure.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubclass.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\pubclass.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubdelegate.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\pubdelegate.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubenumeration.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\pubenumeration.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubevent.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\pubevent.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubextension.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\pubextension.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubfield.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\pubfield.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubinterface.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\pubinterface.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubmethod.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\pubmethod.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\puboperator.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\puboperator.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubproperty.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\pubproperty.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubstructure.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\pubstructure.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionCollapsed.png -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\SectionCollapsed.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionExpanded.png -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\SectionExpanded.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\slMobile.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\slMobile.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\static.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\static.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\xna.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\xna.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\scripts\branding.js -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\scripts\branding.js
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-cs-CZ.css -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\styles\branding-cs-CZ.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-de-DE.css -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\styles\branding-de-DE.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-en-US.css -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\styles\branding-en-US.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-es-ES.css -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\styles\branding-es-ES.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-fr-FR.css -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\styles\branding-fr-FR.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help1.css -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\styles\branding-Help1.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help2.css -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\styles\branding-Help2.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-HelpViewer.css -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\styles\branding-HelpViewer.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-it-IT.css -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\styles\branding-it-IT.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ja-JP.css -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\styles\branding-ja-JP.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ko-KR.css -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\styles\branding-ko-KR.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pl-PL.css -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\styles\branding-pl-PL.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pt-BR.css -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\styles\branding-pt-BR.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ru-RU.css -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\styles\branding-ru-RU.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-tr-TR.css -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\styles\branding-tr-TR.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Website.css -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\styles\branding-Website.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-CN.css -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\styles\branding-zh-CN.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-TW.css -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\styles\branding-zh-TW.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding.css -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\styles\branding.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\index.html -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\index.html
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\search.html -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\search.html
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.aspx -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\SearchHelp.aspx
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.inc.php -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\SearchHelp.inc.php
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.php -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\SearchHelp.php
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\Web.Config -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\Web.Config
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\Search.png -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\Search.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocClose.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\TocClose.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocCollapsed.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\TocCollapsed.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocExpanded.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\TocExpanded.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocOpen.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\TocOpen.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\scripts\branding-Website.js
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\scripts\jquery-1.11.0.min.js
-    Last step completed in 00:00:00.2790
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\alert_caution.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\alert_caution.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\alert_note.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\alert_note.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\alert_security.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\alert_security.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\CFW.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\CFW.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\CodeExample.png -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\CodeExample.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\favicon.ico -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\footer_slice.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\footer_slice.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\privclass.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\privclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\privdelegate.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\privdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\privenumeration.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\privenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\privevent.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\privevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\privextension.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\privextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\privfield.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\privfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\privinterface.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\privinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\privmethod.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\privmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\privproperty.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\privproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\privstructure.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\privstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\protclass.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\protclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\protdelegate.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\protdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\protenumeration.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\protenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\protevent.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\protevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\protextension.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\protextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\protfield.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\protfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\protinterface.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\protinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\protmethod.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\protmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\protoperator.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\protoperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\protproperty.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\protproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\protstructure.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\protstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\pubclass.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\pubclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\pubdelegate.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\pubdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\pubenumeration.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\pubenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\pubevent.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\pubevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\pubextension.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\pubextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\pubfield.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\pubfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\pubinterface.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\pubinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\pubmethod.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\pubmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\puboperator.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\puboperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\pubproperty.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\pubproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\pubstructure.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\pubstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\slMobile.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\slMobile.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\static.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\static.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\tabLeftBG.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\tabLeftBG.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\tabRightBG.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\tabRightBG.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\xna.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\icons\xna.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\scripts\branding.js -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\scripts\branding.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\styles\branding-cs-CZ.css -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\styles\branding-cs-CZ.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\styles\branding-de-DE.css -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\styles\branding-de-DE.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\styles\branding-en-US.css -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\styles\branding-en-US.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\styles\branding-es-ES.css -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\styles\branding-es-ES.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\styles\branding-fr-FR.css -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\styles\branding-fr-FR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\styles\branding-Help1.css -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\styles\branding-Help1.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\styles\branding-Help2.css -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\styles\branding-Help2.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\styles\branding-HelpViewer.css -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\styles\branding-HelpViewer.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\styles\branding-it-IT.css -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\styles\branding-it-IT.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\styles\branding-ja-JP.css -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\styles\branding-ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\styles\branding-ko-KR.css -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\styles\branding-ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\styles\branding-pl-PL.css -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\styles\branding-pl-PL.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\styles\branding-pt-BR.css -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\styles\branding-pt-BR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\styles\branding-ru-RU.css -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\styles\branding-ru-RU.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\styles\branding-tr-TR.css -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\styles\branding-tr-TR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\styles\branding-zh-CN.css -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\styles\branding-zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\styles\branding-zh-TW.css -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\styles\branding-zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\styles\branding.css -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\styles\branding.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\..\LegacyWeb\CloseSearch.png -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\CloseSearch.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\..\LegacyWeb\CollapseAll.png -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\CollapseAll.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\..\LegacyWeb\Collapsed.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\Collapsed.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\..\LegacyWeb\Expanded.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\Expanded.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\..\LegacyWeb\favicon.ico -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\..\LegacyWeb\FillNode.aspx -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\FillNode.aspx
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\..\LegacyWeb\FillNode.php -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\FillNode.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\..\LegacyWeb\Index.aspx -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\Index.aspx
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\..\LegacyWeb\Index.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\Index.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\..\LegacyWeb\index.html -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\index.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\..\LegacyWeb\index.php -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\index.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\..\LegacyWeb\Item.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\Item.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\..\LegacyWeb\LoadIndexKeywords.aspx -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\LoadIndexKeywords.aspx
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\..\LegacyWeb\LoadIndexKeywords.php -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\LoadIndexKeywords.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\..\LegacyWeb\Search.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\Search.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\..\LegacyWeb\SearchHelp.aspx -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\SearchHelp.aspx
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\..\LegacyWeb\SearchHelp.inc.php -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\SearchHelp.inc.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\..\LegacyWeb\SearchHelp.php -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\SearchHelp.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\..\LegacyWeb\Splitter.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\Splitter.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\..\LegacyWeb\SyncTOC.gif -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\SyncTOC.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\..\LegacyWeb\TOC.css -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\TOC.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\..\LegacyWeb\TOC.js -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\TOC.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\..\LegacyWeb\Web.Config -&gt; C:\Users\Ryan\Documents\testsharpcord\doccies\Help\Working\Output\Website\Web.Config
+    Last step completed in 00:00:00.3150
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
-    Last step completed in 00:00:00.0040
+    Last step completed in 00:00:00.0020
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
-<plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:00:05.0963
+    Last step completed in 00:00:01.2101
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -791,18 +296,16 @@ Copied 600 files
 Copied 700 files
 Copied 800 files
 Copied 900 files
-Copied 1000 files
-Copied 1100 files
-Copied 1154 files for the website content
-    Last step completed in 00:00:01.2601
+Copied 965 files for the website content
+    Last step completed in 00:00:01.2651
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.4810
+    Last step completed in 00:00:00.4640
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 9/4/2016 10:18:12 PM.  Total time: 00:00:30.9389
+Build completed successfully at 9/4/2016 10:38:27 PM.  Total time: 00:00:25.6166
 
 </buildStep>
 </shfbBuild>

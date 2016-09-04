@@ -1193,17 +1193,17 @@
   <HelpKINode Title="IconURL property" Url="html/016eb7b5-9393-81fb-fb8b-f43c064a9b3f.htm" />
   <HelpKINode Title="ID property">
     <HelpKINode Title="DiscordChannelBase.ID Property " Url="html/1ede08a7-a882-cecb-093f-2ef2f9250bbc.htm" />
-    <HelpKINode Title="DiscordInviteChannel.ID Property " Url="html/8ea07849-7de4-bf8e-13e3-e2a5c12953a1.htm" />
-    <HelpKINode Title="DiscordInviteServer.ID Property " Url="html/5d72d2fd-92ce-8fbf-dc46-3e9305b58c04.htm" />
     <HelpKINode Title="DiscordMember.ID Property " Url="html/eb5fe2d9-6f50-7d45-a787-eea51a2d7e81.htm" />
+    <HelpKINode Title="DiscordInviteServer.ID Property " Url="html/5d72d2fd-92ce-8fbf-dc46-3e9305b58c04.htm" />
+    <HelpKINode Title="DiscordInviteChannel.ID Property " Url="html/8ea07849-7de4-bf8e-13e3-e2a5c12953a1.htm" />
     <HelpKINode Title="DiscordMessage.ID Property " Url="html/4cfa420b-7280-c86c-8492-2fad1afb2575.htm" />
     <HelpKINode Title="DiscordRole.ID Property " Url="html/2e92d143-3064-1daa-48b2-349dc7d3b74d.htm" />
-    <HelpKINode Title="DiscordURLUpdateEventArgs.ID Property " Url="html/2bf529b4-bf9a-328f-7b5f-91a8130522aa.htm" />
     <HelpKINode Title="DiscordServer.ID Property " Url="html/a482a9d1-d5c8-467b-d257-e74be3ba68c7.htm" />
+    <HelpKINode Title="DiscordURLUpdateEventArgs.ID Property " Url="html/2bf529b4-bf9a-328f-7b5f-91a8130522aa.htm" />
   </HelpKINode>
   <HelpKINode Title="id property">
-    <HelpKINode Title="DiscordRecipient.id Property " Url="html/05c2f018-0e47-90f4-3a06-376a7db24057.htm" />
     <HelpKINode Title="DiscordPermissionOverride.id Property " Url="html/8f57a6dd-aee8-ef47-7110-fed4cb6b338f.htm" />
+    <HelpKINode Title="DiscordRecipient.id Property " Url="html/05c2f018-0e47-90f4-3a06-376a7db24057.htm" />
   </HelpKINode>
   <HelpKINode Title="IDENTIFY field" Url="html/ccfabc2c-dbf4-2f66-f955-78b667550555.htm" />
   <HelpKINode Title="IDiscordWebSocket interface">
@@ -1222,8 +1222,8 @@
   <HelpKINode Title="IDiscordWebSocket.SocketError event" Url="html/9e404b56-a399-5730-ef63-4db1d754365f.htm" />
   <HelpKINode Title="IDiscordWebSocket.SocketOpened event" Url="html/ca0a0d77-198e-3d18-1ea4-78cc705565a4.htm" />
   <HelpKINode Title="IDiscordWebSocket.URL property" Url="html/aaac9742-2789-f651-ff5a-06940c009dca.htm" />
-  <HelpKINode Title="IDLE enumeration member" Url="html/badae63d-c1a8-2ec5-12b6-0dea388a8f25.htm" />
   <HelpKINode Title="Idle enumeration member" Url="html/f2613d79-ca9b-963a-d883-048703425b3e.htm" />
+  <HelpKINode Title="IDLE enumeration member" Url="html/badae63d-c1a8-2ec5-12b6-0dea388a8f25.htm" />
   <HelpKINode Title="Inequality operator" Url="html/c0751ac6-2608-9283-21ef-a6d8dc0256f4.htm" />
   <HelpKINode Title="Initiate method" Url="html/28826a47-6afc-df01-054b-7ef7fa9b6cb1.htm" />
   <HelpKINode Title="InputChannels property" Url="html/90e19f11-7bd9-293c-42aa-c7973917af9e.htm" />
@@ -1352,14 +1352,14 @@
     <HelpKINode Title="DiscordVoiceStateUpdateEventArgs.Mute Property " Url="html/4b28db62-0f5c-1351-227c-a10b251042fa.htm" />
   </HelpKINode>
   <HelpKINode Title="Muted property" Url="html/f8eb8dc5-d44f-2361-49de-253a6c7919be.htm" />
+  <HelpKINode Title="name property">
+    <HelpKINode Title="DiscordInviteChannel.name Property " Url="html/4e61cb05-2a8f-dc92-385e-ae62821747e6.htm" />
+    <HelpKINode Title="DiscordInviteServer.name Property " Url="html/bf56c4c8-7383-b698-5f79-8b4d7b4f183c.htm" />
+  </HelpKINode>
   <HelpKINode Title="Name property">
     <HelpKINode Title="DiscordChannel.Name Property " Url="html/35510a7b-0bce-1296-81af-5958229a163d.htm" />
     <HelpKINode Title="DiscordRole.Name Property " Url="html/2b75f1d2-988c-4469-1ca7-7013b9860c1d.htm" />
     <HelpKINode Title="DiscordServer.Name Property " Url="html/b7a56376-2d11-9ba0-be8a-6e7806ec7deb.htm" />
-  </HelpKINode>
-  <HelpKINode Title="name property">
-    <HelpKINode Title="DiscordInviteChannel.name Property " Url="html/4e61cb05-2a8f-dc92-385e-ae62821747e6.htm" />
-    <HelpKINode Title="DiscordInviteServer.name Property " Url="html/bf56c4c8-7383-b698-5f79-8b4d7b4f183c.htm" />
   </HelpKINode>
   <HelpKINode Title="NetWebSocketWrapper class">
     <HelpKINode Title="NetWebSocketWrapper Class" Url="html/30c374a9-a9d5-a442-30bd-eeb0d0733af7.htm" />
@@ -1380,15 +1380,15 @@
   <HelpKINode Title="NewServer property" Url="html/030ac423-cbd2-69bc-d3c8-9afd9cb04fbc.htm" />
   <HelpKINode Title="Nickname property" Url="html/96b73b1d-eb3b-d89c-e036-2adb62de7d3b.htm" />
   <HelpKINode Title="None enumeration member" Url="html/221c1be8-e72c-6854-cb46-d0f6104e05a4.htm" />
-  <HelpKINode Title="OFFLINE enumeration member" Url="html/badae63d-c1a8-2ec5-12b6-0dea388a8f25.htm" />
   <HelpKINode Title="Offline enumeration member" Url="html/f2613d79-ca9b-963a-d883-048703425b3e.htm" />
+  <HelpKINode Title="OFFLINE enumeration member" Url="html/badae63d-c1a8-2ec5-12b6-0dea388a8f25.htm" />
   <HelpKINode Title="OK enumeration member" Url="html/c5a1b4c1-452a-6f4d-d062-8851b329dc63.htm" />
   <HelpKINode Title="OldChannel property" Url="html/851f92d8-2f24-8248-e5cc-be6ec8f31057.htm" />
   <HelpKINode Title="OldServer property" Url="html/4ddef918-c5d6-c8ba-8d85-910750c9aa99.htm" />
   <HelpKINode Title="OnConnect method" Url="html/4577150a-7e2b-28b5-6a24-e19160eccd09.htm" />
   <HelpKINode Title="OnDisconnect method" Url="html/a0203b72-6f54-5a3e-cbdf-53c77b6bfd75.htm" />
-  <HelpKINode Title="Online enumeration member" Url="html/f2613d79-ca9b-963a-d883-048703425b3e.htm" />
   <HelpKINode Title="ONLINE enumeration member" Url="html/badae63d-c1a8-2ec5-12b6-0dea388a8f25.htm" />
+  <HelpKINode Title="Online enumeration member" Url="html/f2613d79-ca9b-963a-d883-048703425b3e.htm" />
   <HelpKINode Title="OnLogMessageReceived delegate" Url="html/08b63a14-0c41-9be3-7dad-81a72e26e044.htm" />
   <HelpKINode Title="OnMessage method" Url="html/ebb5a30b-4450-7bf5-8e9f-3ab655d6f21d.htm" />
   <HelpKINode Title="Opcodes class">
@@ -1779,12 +1779,12 @@
   <HelpKINode Title="Topic property" Url="html/6a3e1719-3669-e298-ce91-02a91a9666a2.htm" />
   <HelpKINode Title="ToString method" Url="html/ef2d9442-1a6e-0d90-9caa-61d2889246df.htm" />
   <HelpKINode Title="TTS property" Url="html/57303a6b-0b3a-745d-fe25-d0df96df4d58.htm" />
+  <HelpKINode Title="type property" Url="html/7997aa33-f184-4297-8422-ae7ee4ef5cc6.htm" />
   <HelpKINode Title="Type property">
     <HelpKINode Title="DiscordChannel.Type Property " Url="html/ea45771a-ab82-a523-a25f-cb06e60ca53d.htm" />
-    <HelpKINode Title="DiscordInviteChannel.Type Property " Url="html/b3878d31-bef1-025f-6075-40cfc3ffeb8b.htm" />
     <HelpKINode Title="DiscordEmbeds.Type Property " Url="html/9c55f5ed-bea5-7489-b54a-d8398a73f6da.htm" />
+    <HelpKINode Title="DiscordInviteChannel.Type Property " Url="html/b3878d31-bef1-025f-6075-40cfc3ffeb8b.htm" />
   </HelpKINode>
-  <HelpKINode Title="type property" Url="html/7997aa33-f184-4297-8422-ae7ee4ef5cc6.htm" />
   <HelpKINode Title="TypeOfChannelObject property" Url="html/09335694-c2aa-b867-a62b-783de427d6b1.htm" />
   <HelpKINode Title="Typing field" Url="html/3ac4c1c0-d0bf-9473-de30-1b189f4013b7.htm" />
   <HelpKINode Title="Unavailable property" Url="html/8c2827d0-c348-b31e-e3c3-7fdc2891450c.htm" />
@@ -1824,11 +1824,11 @@
   <HelpKINode Title="UserAddedToServer event" Url="html/a290f1d2-8f2f-4dc4-4dd7-a3fe9f1c5b8c.htm" />
   <HelpKINode Title="UserID property" Url="html/958fcf41-eb52-f0f3-ab09-9ca5b3a344a6.htm" />
   <HelpKINode Title="UserLeftVoiceChannel event" Url="html/39e97119-9ef5-8ab6-9f7e-b3cac6c28d51.htm" />
-  <HelpKINode Title="username property" Url="html/04bed3db-11c9-9f50-b3a2-db1a00980dff.htm" />
   <HelpKINode Title="Username property">
-    <HelpKINode Title="DiscordUserInformation.Username Property " Url="html/a9807a57-b984-0ac8-f8ca-2573d6294198.htm" />
     <HelpKINode Title="DiscordMember.Username Property " Url="html/d411b3c2-21f4-fde6-498b-ed180fe433ef.htm" />
+    <HelpKINode Title="DiscordUserInformation.Username Property " Url="html/a9807a57-b984-0ac8-f8ca-2573d6294198.htm" />
   </HelpKINode>
+  <HelpKINode Title="username property" Url="html/04bed3db-11c9-9f50-b3a2-db1a00980dff.htm" />
   <HelpKINode Title="UserRemovedFromServer event" Url="html/fee015e5-d5e1-2cd7-2eb3-5bc9f0968c0a.htm" />
   <HelpKINode Title="Users field" Url="html/940b6f6d-96f5-15e8-0ac3-65a227c15c4e.htm" />
   <HelpKINode Title="UserSpeaking event" Url="html/ac5c61e1-4b25-22fd-0bd5-219d6d7e4357.htm" />
