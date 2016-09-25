@@ -1,0 +1,44 @@
+# DiscordMessageEditedEventArgs.MessageText Property 
+ 
+
+\[Missing <summary> documentation for "P:DSharpPlus.Events.DiscordMessageEditedEventArgs.MessageText"\]
+
+**Namespace:**&nbsp;<a href="c92bdbbe-3dbb-8f2c-d215-691d3e9855e1">DSharpPlus.Events</a><br />**Assembly:**&nbsp;DSharpPlus (in DSharpPlus.dll) Version: 0.6.2.0 (0.6.2.0)
+
+## Syntax
+
+**C#**<br />
+``` C#
+public string MessageText { get; }
+```
+
+**VB**<br />
+``` VB
+Public ReadOnly Property MessageText As String
+	Get
+```
+
+**C++**<br />
+``` C++
+public:
+property String^ MessageText {
+	String^ get ();
+}
+```
+
+**F#**<br />
+``` F#
+member MessageText : string with get
+
+```
+
+<br />
+
+#### Property Value
+Type: <a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">String</a>
+
+## See Also
+
+
+#### Reference
+<a href="bd2b306c-8a1d-03bd-e5d9-1c3478cb6fe4">DiscordMessageEditedEventArgs Class</a><br /><a href="c92bdbbe-3dbb-8f2c-d215-691d3e9855e1">DSharpPlus.Events Namespace</a><br />

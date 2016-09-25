@@ -1,0 +1,44 @@
+# DiscordGuildRoleUpdateEventArgs.RawJson Property 
+ 
+
+\[Missing <summary> documentation for "P:DSharpPlus.DiscordGuildRoleUpdateEventArgs.RawJson"\]
+
+**Namespace:**&nbsp;<a href="503971eb-de5e-a570-9922-de9500a9b1cc">DSharpPlus</a><br />**Assembly:**&nbsp;DSharpPlus (in DSharpPlus.dll) Version: 0.6.2.0 (0.6.2.0)
+
+## Syntax
+
+**C#**<br />
+``` C#
+public JObject RawJson { get; }
+```
+
+**VB**<br />
+``` VB
+Public ReadOnly Property RawJson As JObject
+	Get
+```
+
+**C++**<br />
+``` C++
+public:
+property JObject^ RawJson {
+	JObject^ get ();
+}
+```
+
+**F#**<br />
+``` F#
+member RawJson : JObject with get
+
+```
+
+<br />
+
+#### Property Value
+Type: JObject
+
+## See Also
+
+
+#### Reference
+<a href="1553801b-d5f1-5f73-768b-f8720534dc52">DiscordGuildRoleUpdateEventArgs Class</a><br /><a href="503971eb-de5e-a570-9922-de9500a9b1cc">DSharpPlus Namespace</a><br />

@@ -1,0 +1,44 @@
+# DiscordSocketClosedEventArgs.Code Property 
+ 
+
+\[Missing <summary> documentation for "P:DSharpPlus.DiscordSocketClosedEventArgs.Code"\]
+
+**Namespace:**&nbsp;<a href="503971eb-de5e-a570-9922-de9500a9b1cc">DSharpPlus</a><br />**Assembly:**&nbsp;DSharpPlus (in DSharpPlus.dll) Version: 0.6.2.0 (0.6.2.0)
+
+## Syntax
+
+**C#**<br />
+``` C#
+public int Code { get; }
+```
+
+**VB**<br />
+``` VB
+Public ReadOnly Property Code As Integer
+	Get
+```
+
+**C++**<br />
+``` C++
+public:
+property int Code {
+	int get ();
+}
+```
+
+**F#**<br />
+``` F#
+member Code : int with get
+
+```
+
+<br />
+
+#### Property Value
+Type: <a href="http://msdn2.microsoft.com/en-us/library/td2s409d" target="_blank">Int32</a>
+
+## See Also
+
+
+#### Reference
+<a href="b477d84e-a426-a869-0699-ad8fcab5ad72">DiscordSocketClosedEventArgs Class</a><br /><a href="503971eb-de5e-a570-9922-de9500a9b1cc">DSharpPlus Namespace</a><br />

@@ -1,0 +1,44 @@
+# DiscordVoiceUserSpeakingEventArgs.Ssrc Property 
+ 
+
+\[Missing <summary> documentation for "P:DSharpPlus.Events.DiscordVoiceUserSpeakingEventArgs.Ssrc"\]
+
+**Namespace:**&nbsp;<a href="c92bdbbe-3dbb-8f2c-d215-691d3e9855e1">DSharpPlus.Events</a><br />**Assembly:**&nbsp;DSharpPlus (in DSharpPlus.dll) Version: 0.6.2.0 (0.6.2.0)
+
+## Syntax
+
+**C#**<br />
+``` C#
+public int Ssrc { get; }
+```
+
+**VB**<br />
+``` VB
+Public ReadOnly Property Ssrc As Integer
+	Get
+```
+
+**C++**<br />
+``` C++
+public:
+property int Ssrc {
+	int get ();
+}
+```
+
+**F#**<br />
+``` F#
+member Ssrc : int with get
+
+```
+
+<br />
+
+#### Property Value
+Type: <a href="http://msdn2.microsoft.com/en-us/library/td2s409d" target="_blank">Int32</a>
+
+## See Also
+
+
+#### Reference
+<a href="609ac90e-bfff-c14e-5d28-928c4a33592f">DiscordVoiceUserSpeakingEventArgs Class</a><br /><a href="c92bdbbe-3dbb-8f2c-d215-691d3e9855e1">DSharpPlus.Events Namespace</a><br />

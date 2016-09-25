@@ -1,0 +1,48 @@
+# DiscordClient.ClearAuthorListeners Method 
+ 
+
+Clears all listeners for this member.
+
+**Namespace:**&nbsp;<a href="503971eb-de5e-a570-9922-de9500a9b1cc">DSharpPlus</a><br />**Assembly:**&nbsp;DSharpPlus (in DSharpPlus.dll) Version: 0.6.2.0 (0.6.2.0)
+
+## Syntax
+
+**C#**<br />
+``` C#
+public void ClearAuthorListeners(
+	string id
+)
+```
+
+**VB**<br />
+``` VB
+Public Sub ClearAuthorListeners ( 
+	id As String
+)
+```
+
+**C++**<br />
+``` C++
+public:
+void ClearAuthorListeners(
+	String^ id
+)
+```
+
+**F#**<br />
+``` F#
+member ClearAuthorListeners : 
+        id : string -> unit 
+
+```
+
+<br />
+
+#### Parameters
+&nbsp;<dl><dt>id</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">System.String</a><br />\[Missing <param name="id"/> documentation for "M:DSharpPlus.DiscordClient.ClearAuthorListeners(System.String)"\]</dd></dl>
+
+## See Also
+
+
+#### Reference
+<a href="8f8cbf24-03e9-53cc-389f-2ba10a699065">DiscordClient Class</a><br /><a href="503971eb-de5e-a570-9922-de9500a9b1cc">DSharpPlus Namespace</a><br />

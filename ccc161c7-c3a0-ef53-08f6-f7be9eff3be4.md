@@ -1,0 +1,52 @@
+# DiscordClient.AddAuthorListener Method 
+ 
+
+Adds a listener for when this member sends a message.
+
+**Namespace:**&nbsp;<a href="503971eb-de5e-a570-9922-de9500a9b1cc">DSharpPlus</a><br />**Assembly:**&nbsp;DSharpPlus (in DSharpPlus.dll) Version: 0.6.2.0 (0.6.2.0)
+
+## Syntax
+
+**C#**<br />
+``` C#
+public void AddAuthorListener(
+	string id,
+	EventHandler<DiscordMessageEventArgs> func
+)
+```
+
+**VB**<br />
+``` VB
+Public Sub AddAuthorListener ( 
+	id As String,
+	func As EventHandler(Of DiscordMessageEventArgs)
+)
+```
+
+**C++**<br />
+``` C++
+public:
+void AddAuthorListener(
+	String^ id, 
+	EventHandler<DiscordMessageEventArgs^>^ func
+)
+```
+
+**F#**<br />
+``` F#
+member AddAuthorListener : 
+        id : string * 
+        func : EventHandler<DiscordMessageEventArgs> -> unit 
+
+```
+
+<br />
+
+#### Parameters
+&nbsp;<dl><dt>id</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">System.String</a><br />\[Missing <param name="id"/> documentation for "M:DSharpPlus.DiscordClient.AddAuthorListener(System.String,System.EventHandler{DSharpPlus.Events.DiscordMessageEventArgs})"\]</dd><dt>func</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/db0etb8x" target="_blank">System.EventHandler</a>(<a href="9c7889da-8edb-9c6e-0fc0-b5ea74a05991">DiscordMessageEventArgs</a>)<br />\[Missing <param name="func"/> documentation for "M:DSharpPlus.DiscordClient.AddAuthorListener(System.String,System.EventHandler{DSharpPlus.Events.DiscordMessageEventArgs})"\]</dd></dl>
+
+## See Also
+
+
+#### Reference
+<a href="8f8cbf24-03e9-53cc-389f-2ba10a699065">DiscordClient Class</a><br /><a href="503971eb-de5e-a570-9922-de9500a9b1cc">DSharpPlus Namespace</a><br />
